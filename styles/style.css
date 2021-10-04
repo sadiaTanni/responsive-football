@@ -1,0 +1,64 @@
+/* ----font---- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+/*------------ common style ---------- */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+}
+main{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    
+}
+/*---------- playerd information---------- */
+
+.container{
+    Width :1050px;
+    Height :474px;
+  
+    background-color: #FFFFFF;
+
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-gap: 25px;
+
+    
+}
+.player{
+    width: 300px;
+    height: 440px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+   
+    
+}
+
+
+ .thumbnail img{
+    width: 300px;
+    height: 256px; 
+    margin-bottom: 0;  
+
+}
+.players-info{
+    
+    
+}
+.player-name{
+    font-size: 16px;
+    padding : 10px;
+    margin-bottom: 0;
+}
+.player-details{
+    
+    font-size: 11px;
+    text-align: justify;
+    padding: 10px;
+}
